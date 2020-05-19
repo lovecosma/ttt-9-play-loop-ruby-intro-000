@@ -35,15 +35,13 @@ def turn(board)
   end
 end
 
-def game(board)
-turns = 0
+
+
+# Define your play method below
+def play(board)
+  turns = 0
   while turns < 10
   turn(board)
   turns += 1
   end
-end
-
-# Define your play method below
-def play(board)
-
 end
